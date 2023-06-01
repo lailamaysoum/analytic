@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/note_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/note_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note Description"
+        android:padding="16dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/note_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note Address"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>
